@@ -10,7 +10,7 @@ agua_ideal = peso * ml
 copos = round(agua_ideal / copo)
 tempo = round(min/copos)
 
-print(f'\n{nome}, você deve tomar {copos} copos durante o dia a sendo 1 a cada {tempo} minutos. Boa Sorte!') #printar quantidade de copos
+print(f'\n{nome}, você deve tomar {agua_ideal} litros de água por dia, que são {copos} copos sendo 1 a cada {tempo} minutos. Boa Sorte!') #printar quantidade de copos
 
 
 
